@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
     
 }
 
@@ -134,10 +135,6 @@ header{
     width: 100%;
 }
 /* price  */
-
-.price{
-    
-}
 .inner-price{
     width: 15rem;
     height: 15rem;
@@ -174,6 +171,7 @@ header{
 section{
     margin-top: 4rem;
     font-family:'Bebas Neue', cursive;
+    overflow: hidden;
 }
 #popular-burger{
     overflow: hidden;
@@ -305,9 +303,6 @@ section{
 #choose .choose-img {
     width:100%;
 }
-.choose-col img{
-    
-}
 .choose-col p{
     width:100%;
 }
@@ -383,9 +378,11 @@ section{
     /* background-color: #c3c3c3; */
     text-transform: uppercase;
     text-align: center;
+    position: relative;
+    overflow: hidden;
 }
 #table-booking .img1{
-    position: absolute;
+     position: absolute;
     top: 2%;
     left: -3%;
 
@@ -402,11 +399,12 @@ section{
 }
 
 #table-booking .img3{
-    position: absolute;
+    /* position: absolute;
     top: 40%;
-    right: -20%;
+    right: 0%; */
+    float: right;
 
-}
+} */
 #table-booking h2{
     font-size: 2.6rem;
     padding-top: 4rem;
